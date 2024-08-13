@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>paiement</title>
+</head>
+<link rel="stylesheet" href="styleP.css">
+<body>
+  <h1>Paiement</h1>
+
+  <form action="traitement_paiement.php" method="post">
+    <label for="nom">Nom complet :</label>
+    <input type="text" id="nom" name="nom" required><br><br>
+
+    <label for="numero_carte">Numéro de carte :</label>
+    <input type="text" id="numero_carte" name="numero_carte" required><br><br>
+
+    <label for="expiration">Date d'expiration :</label>
+    <input type="text" id="expiration" name="expiration" required><br><br>
+
+    <label for="cvv">CVV :</label>
+    <input type="text" id="cvv" name="cvv" required><br><br>
+
+    <input type="submit" value="Payer">
+  </form>
+</body>
+</html>
