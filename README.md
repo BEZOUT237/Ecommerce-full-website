@@ -28,7 +28,7 @@ To set up the e-commerce website locally, follow these steps:
 
 Clone the Repository:
 
-git clone https://github.com/BEZOUT237/ecom.git
+git clone https://github.com/BEZOUT237/Ecommerce-full-website.git
 cd ecom
 Install Dependencies:
 Navigate to the project directory and install the necessary dependencies.
